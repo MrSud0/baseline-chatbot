@@ -41,4 +41,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Credits
 
-This chatbot platform was created by YOUR_NAME. The project was inspired by OpenAI's GPT-3 API and the Flask framework.
+This chatbot platform was created by MrSudo. The project was inspired by OpenAI's GPT-3 API and the Flask framework.
+
