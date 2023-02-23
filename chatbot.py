@@ -6,7 +6,7 @@ from flask import Flask, request, render_template, jsonify
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 # Set up OpenAI API client
-openai.api_key = "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"
+openai.api_key = OPENAI_API_KEY
 
 # Set up Flask application
 app = Flask(__name__)
