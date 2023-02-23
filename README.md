@@ -9,7 +9,8 @@ To install the chatbot platform using Docker, follow these steps:
 1. Clone this repository to your local machine: `git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git`
 2. Navigate to the root directory of the project: `cd YOUR_REPOSITORY`
 3. Build the Docker image: `docker build -t chatbot .`
-4. Run the Docker container: `docker run -p 5000:5000 -e OPENAI_API_KEY=YOUR_API_KEY chatbot`. You can also create an .env file and add the key there. 
+4. Run the Docker container: `docker run -p 5000:5000 -e OPENAI_API_KEY=YOUR_API_KEY chatbot`. 
+5. You can also create an .env file and add the key there, then run the container as `docker run -p 5000:5000 chatbot`. 
 
 ## Usage
 
